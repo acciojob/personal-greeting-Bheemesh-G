@@ -32,7 +32,7 @@ const App = () => {
         <input type="text" id="username" name="username" value={inputValue} onChange={handleInput}/>
         <br/>
         <button type="submit" onClick={handleSubmit}>Submit</button>
-        {showValue && <p>'Hello {inputValue}!'</p>}
+        {showValue && <p>'Hello {inputValue}! '</p>}
     </div>
   )
 }
